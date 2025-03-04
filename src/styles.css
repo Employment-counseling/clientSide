@@ -1,3 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-
+.p-button {
+    background-color: #030203 !important; /* צבע רקע מותאם */
+    color: white !important; /* צבע טקסט */
+}
+/* הגדלת כפתורים בעת hover */
+.p-button:hover {
+    transform: scale(1.1);  /* הגדלת הכפתור ב-10% */
+    transition: transform 0.3s ease-in-out;  /* אפקט מעבר חלק */
+}
 

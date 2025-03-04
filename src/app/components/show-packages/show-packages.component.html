@@ -1,5 +1,8 @@
-<div class="button-container">
-  <p-button label="ייעוץ תעסוקתי" icon="pi pi-briefcase" class="p-button-primary" (click)="onConsultationClick()"></p-button>
-  <p-button label="גרפולוגיה" icon="pi pi-pencil" class="p-button-info" (click)="onGraphologyClick()"></p-button>
-  <p-button label="פגישת ייעוץ" icon="pi pi-calendar" class="p-button-success" (click)="onMeetingClick()"></p-button>
+<img src="Rectangle 96.png" alt="New Image" class="rectangle-96">
+<img src="Rectangle 8.png" alt="New Image" class="rectangle-8">
+<img src="Rectangle 9.png" alt="New Image" class="rectangle-9">
+<div *ngFor="let pkg of packages; let i = index">
+  <div [ngClass]="getClassName(i)">
+    {{ pkg.name }}
+  </div>
 </div>

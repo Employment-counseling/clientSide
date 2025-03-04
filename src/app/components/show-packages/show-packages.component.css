@@ -1,9 +1,74 @@
-.button-container {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
+.rectangle-96 {
+  width: 549px;
+  height: 105px;
+  position: absolute;
+  top: 20px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  border-radius: 13px;
 }
 
-p-button {
-  margin: 10px;
+.text-box {
+  width: 262px;
+  height: 51px;
+  position: absolute;
+  top:50px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  font-family: 'Leon', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45.2px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.rectangle-9 {
+  width: 549px;
+  height: 105px;
+  position: absolute;
+  top: 200px; 
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 13px;
+}
+
+.textt-box {
+  width: 262px;
+  height: 51px;
+  position: absolute;
+  top: 230px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Leon', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45.2px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.rectangle-8 {
+  width: 549px;
+  height: 105px;
+  position: absolute;
+  top: 370px; 
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 13px;
+}
+
+.texttt-box {
+  width: 262px;
+  height: 51px;
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Leon', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45.2px;
+  letter-spacing: 0%;
+  text-align: center;
 }
