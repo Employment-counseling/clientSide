@@ -1,0 +1,17 @@
+
+.my-image {
+    z-index: 2;
+    width: 854px;
+    height: 967px;
+    border-top-left-radius: 38px;
+    border-bottom-left-radius: 38px;
+  }
+  
+  .my-imagee {
+    z-index: 1;
+    width: 1530px;
+    height: 967px;
+    border-top-left-radius: 38px;
+    border-bottom-left-radius: 38px;
+    border-bottom-right-radius: 38px;
+  }

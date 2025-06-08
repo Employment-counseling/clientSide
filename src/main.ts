@@ -5,12 +5,14 @@ import { ShowPackagesComponent } from './app/components/show-packages/show-packa
 import { PayMentComponent } from './app/components/pay-ment/pay-ment.component';
 import { HomeComponent } from './app/components/home/home.component';
 import { provideHttpClient } from '@angular/common/http';
-const routes: Route[] = [
-  { path: '', component: HomeComponent }, 
-  { path: 'ShowPackages', component: ShowPackagesComponent },
-  { path: 'payment', component: PayMentComponent },
+import {routes} from "./app/app.routes"
 
-];
+// const routes: Route[] = [
+//   { path: '', component: HomeComponent }, 
+//   { path: 'ShowPackages', component: ShowPackagesComponent },
+//   { path: 'payment', component: PayMentComponent },
+
+// ];
 
 bootstrapApplication(AppComponent, {
   providers: [[provideRouter(routes)],provideHttpClient(),]  
