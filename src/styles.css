@@ -4,18 +4,11 @@
 
 @font-face {
     font-family: 'Leon';
-    src: url('../src/assets/fonts/Leon-Regular.ttf') format('truetype');
+    src: url('../src/assets/fonts/Leon-ProductRegular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
   }
   
-  @font-face {
-    font-family: 'Leon';
-    src: url('../src/assets/fonts/Leon-Regular400.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-  }
-
   @font-face {
     font-family: 'pfennig';
     src: url('../src/assets/fonts/pfennig-webfont.woff') format('woff');

@@ -11,7 +11,6 @@ module.exports = {
       },
       fontFamily: {
         'leon': ['Leon', 'Arial', 'sans-serif'],
-        'pfennig': ['PFennig', 'Arial', 'sans-serif'],
       }
     },
   },
