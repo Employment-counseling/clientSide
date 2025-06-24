@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         limeCustom: '#BBEB00',
+          skycustom: '#23BEDD',
       },
       fontFamily: {
         'leon': ['Leon', 'Arial', 'sans-serif'],

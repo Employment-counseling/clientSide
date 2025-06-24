@@ -15,3 +15,9 @@
     font-weight: 400;
     font-style: normal;
   }
+  .btn-primary {
+  @apply bg-[#FF5D2C] text-white font-bold py-2 w-full max-w-[560px] rounded-full;
+}
+.btn-google {
+  @apply bg-white text-black font-bold py-2 w-full max-w-[560px] rounded-full border border-[#323232];
+}
