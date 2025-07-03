@@ -1,53 +1,37 @@
-<div class="h-screen max-h-screen  flex items-center justify-center  py-8 bg-white">
-    <div class="flex flex-col lg:flex-row w-full  h-full max-h-full mr-16 ml-16">
-        <div class="hidden md:block absolute top-[99px] left-[215px]
-            w-[1100px] h-[1px] 
-            bg-[#A7A5A6] rounded-[180px] ">
-          </div>
-   <div class="flex flex-wrap items-center gap-4 px-4 py-2 md:absolute md:top-[53px] md:left-[200px] w-full md:w-auto">
-  <div class="flex items-center gap-2">
-    <img src="person-circle-sharp.png" alt="משתמש" class="w-5 h-5" />
-    <span class="text-sm md:text-base">מרים לוי</span>
-  </div>
-  <img src="Settings.png" alt="הגדרות" class="w-5 h-5" />
-  <img src="notifications-sharp.png" alt="התראות" class="w-5 h-5" />
-  <img src="Group 756.png" alt="מייל" class="w-[24px] h-[20px]" />
-</div>
-
-<div class="max-w-[807px] mx-auto px-4 mt-[80px] ">
-  <div>
-    <h1 class="mt-16  ml-16 font-bold text-[#23BEDD] text-[24px] sm:text-[36px] md:text-[48px] leading-none whitespace-nowrap">
-      נרשמת בהצלחה, בואי נתחיל
-    </h1>
-  </div>
-
-
-  <div>
-   <p class="mt-24 ml-[650px] text-[18px] sm:text-[20px] md:text-[22px] leading-[158%] font-normal text-[#23BEDD] whitespace-nowrap">
-  :יש לבחור באחת האפשרויות
-</p>
-
-
-    <div class="mt-8 flex flex-col md:flex-row items-center justify-between gap-6">
-      <div class="w-full md:w-[56%] h-[250px] bg-[#23BEDD] rounded-[40px] text-white flex flex-col items-center justify-center text-[24px] sm:text-[28px] md:text-[32px] font-bold">
-        <div class="mb-0">לשאלון אינטייק</div>
-      <button class="mt-16 w-[220px] sm:w-[200px] h-[40px] bg-white text-[#23BEDD] text-base rounded-[40px] font-bold">
-  אני רוצה להתחיל
-</button>
+<div class="h-screen max-h-screen flex items-center justify-center py-8 bg-white">
+  <div class="flex flex-col lg:flex-row w-full h-full max-h-full mr-16 ml-16">
+    <div class="hidden md:block absolute top-[99px] left-[215px] w-[1100px] h-[1px] bg-[#A7A5A6] rounded-[180px]"></div>
+    <app-user-menu></app-user-menu>
+    <div class="max-w-[807px] mx-auto px-4 mt-[80px]">
+      <div>
+        <h1 class="mt-16 ml-16 font-bold text-[#23BEDD] text-[24px] sm:text-[36px] md:text-[48px] leading-none whitespace-nowrap">
+          נרשמת בהצלחה, בואי נתחיל
+        </h1>
       </div>
-      <div class="w-full md:w-[56%] h-[250px] bg-[#C4E800] rounded-[40px] text-black flex flex-col items-center justify-center text-[24px] sm:text-[28px] md:text-[32px] font-bold">
-        <div class="mb-0">לשאלון הולנד</div>
- <button class="mt-16 w-[220px] sm:w-[200px] h-[40px] bg-white text-[#23BEDD] text-base rounded-[40px] font-bold">
+      <div>
+        <p class="mt-24 ml-[650px] text-[18px] sm:text-[20px] md:text-[22px] leading-[158%] font-normal text-[#23BEDD] whitespace-nowrap">
+          :יש לבחור באחת האפשרויות
+        </p>
+        <div class="mt-8 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div class="w-full md:w-[56%] h-[250px] bg-[#23BEDD] rounded-[40px] text-white flex flex-col items-center justify-center text-[24px] sm:text-[28px] md:text-[32px] font-bold">
+            <div class="mb-0">לשאלון אינטייק</div>
+<button
+  [routerLink]="'/FillQuiz'"
+  type="button"
+  class="mt-16 w-[220px] sm:w-[200px] h-[40px] bg-white text-[#23BEDD] text-base rounded-[40px] font-bold">
   אני רוצה להתחיל
 </button>
+          </div>
+          <div class="w-full md:w-[56%] h-[250px] bg-[#C4E800] rounded-[40px] text-black flex flex-col items-center justify-center text-[24px] sm:text-[28px] md:text-[32px] font-bold">
+            <div class="mb-0">לשאלון הולנד</div>
+            <button type="button" class="mt-16 w-[220px] sm:w-[200px] h-[40px] bg-white text-[#23BEDD] text-base rounded-[40px] font-bold">
+              אני רוצה להתחיל
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
-</div>
-
-
-</div>
 </div>
 
 
